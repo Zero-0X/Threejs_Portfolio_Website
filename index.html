@@ -1,33 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Here there be Dragons!</title>
 </head>
+
 <body>
     <!-- header -->
+    <header>
+        <p>
+            "Even the long life of a dragon is not enough to teach everything that is."
+        </p>
+        <span>
+            -Sarah K.L. Wilson
+        </span>
+    </header>
     <!-- nav -->
     <nav id="nav">
         <ol class="ol">
-            <li class="home"><a href="">Home</a></li>
-            <li class="about"><a href="">About</a></li>
-            <li class="projects"><a href="">Projects</a></li>
-            <li class="contact"><a href="">Contact</a></li>
+            <li class="home"><a href="#">Home</a></li>
+            <li class="about"><a href="#">About</a></li>
+            <li class="projects"><a href="#">Projects</a></li>
+            <li class="contact"><a href="#">Contact</a></li>
         </ol>
     </nav>
+    <!-- project links -->
+    <ul>
+        <li>
+            <a href="">JS Game</a>
+        </li>
+        <li>
+            <a href="">Blockchain</a>
+        </li>
+        <li>
+            <a href="">MERN Stack</a>
+        </li>
+    </ul>
     <!-- contact page -->
     <form id="contact-form"></form>
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name">
 
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
 
-        <label for="message">Message</label>
-        <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+    <label for="message">Message</label>
+    <textarea name="message" id="message" cols="30" rows="10" required></textarea>
 
     <script type="module" src="main.js"></script>
 </body>
+
 </html>
